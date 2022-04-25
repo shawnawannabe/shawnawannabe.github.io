@@ -1,9 +1,14 @@
 body{
   margin: 0;
+  font-family: 'Libre Franklin', serif;
+
+}
+
+img {
+  width: 310px;
 }
 
 .first-page{
-  font-family: 'Libre Franklin', serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,4 +73,12 @@ h3{
   font-family: 'Roboto Mono';
   font-size: 13px;
   font-weight: 1000;
+}
+
+#youtube-link {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  background-color: #535fa4;
+  border-radius: 5px;
 }
