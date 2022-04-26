@@ -5,7 +5,12 @@ body{
 }
 
 img {
-  width: 310px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .first-page{
@@ -78,7 +83,20 @@ h3{
 #youtube-link {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin-top: 10px;
+  padding: 10px;
   background-color: #535fa4;
   border-radius: 5px;
+}
+
+#project1-title {
+  font-size: 20px;
+  font-weight: 1000;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+#icon-row {
+  display: flex;
+  justify-content: space-between;
 }
