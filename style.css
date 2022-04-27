@@ -6,6 +6,7 @@ body{
 
 img {
   width: 100%;
+  max-height: 220px;
 }
 
 a {
@@ -44,7 +45,7 @@ h3{
 }
 
 .second-page{
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #b1beda;
   display: flex;
@@ -71,10 +72,11 @@ h3{
 
 .tags {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tag {
-  margin-right: 20px;
+  margin-right: 15px;
   font-family: 'Roboto Mono';
   font-size: 13px;
   font-weight: 1000;
